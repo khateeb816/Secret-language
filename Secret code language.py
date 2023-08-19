@@ -28,8 +28,9 @@ if user == 1:
         temp = Upper_Lower_string(3) + temp
         user_output2.append(temp)
         user_output = ' '.join(user_output2)
-        input("\n Press enter to exit")
+        
     print(user_output)
+    input("\n Press enter to exit")
 elif user == 2:
     #decoder
     user_input = input("\n Enter your message: ")
