@@ -28,6 +28,7 @@ if user == 1:
         temp = Upper_Lower_string(3) + temp
         user_output2.append(temp)
         user_output = ' '.join(user_output2)
+        input("\n Press enter to exit")
     print(user_output)
 elif user == 2:
     #decoder
@@ -46,5 +47,6 @@ elif user == 2:
 
     user_output = ' '.join(output)
     print(user_output)
+    input("\n Press enter to exit")
 else:
     print("\n Invalid input Try again")
